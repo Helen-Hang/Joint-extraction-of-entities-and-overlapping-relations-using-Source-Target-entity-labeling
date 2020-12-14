@@ -68,9 +68,9 @@ def transform(file, w2i, r2i, out):
 
 if __name__ == "__main__":
     # webnlg
-    transform(file='webnlg/input/train.json', w2i='webnlg/input/words2id.json', r2i='webnlg/input/relations2id.json', out='webnlg/output/train.json')
-    transform(file='webnlg/input/valid.json', w2i='webnlg/input/words2id.json', r2i='webnlg/input/relations2id.json', out='webnlg/output/valid.json')
-    transform(file='webnlg/input/dev.json', w2i='webnlg/input/words2id.json', r2i='webnlg/input/relations2id.json', out='webnlg/output/dev.json')
+    transform(file='webnlg1/input/train.json', w2i='webnlg1/input/words2id.json', r2i='webnlg1/input/relations2id.json', out='webnlg1/output/train.json')
+    transform(file='webnlg1/input/valid.json', w2i='webnlg1/input/words2id.json', r2i='webnlg1/input/relations2id.json', out='webnlg1/output/valid.json')
+    transform(file='webnlg1/input/dev.json', w2i='webnlg1/input/words2id.json', r2i='webnlg1/input/relations2id.json', out='webnlg1/output/dev.json')
     # nyt
     transform(file='nyt1/input/train.json', w2i='nyt1/input/words2id.json', r2i='nyt1/input/relations2id.json', out='nyt1/output/train.json')
     transform(file='nyt1/input/valid.json', w2i='nyt1/input/words2id.json', r2i='nyt1/input/relations2id.json', out='nyt1/output/valid.json')
