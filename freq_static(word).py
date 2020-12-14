@@ -169,8 +169,7 @@ def get_epo_frequency_from_file(dataset, number_of_interest):
 
 
 if __name__ == "__main__":
-    # get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt/train_data.json')
-    get_seo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/output/train.json', number_of_interest=11)
-    get_seo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt/train_data.json', number_of_interest=11)
-    # get_epo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/output/train.json', number_of_interest=10)
+    get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/output/train.json')
+    get_seo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/output/train.json', number_of_interest=10)
+    get_epo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/output/train.json', number_of_interest=10)
 

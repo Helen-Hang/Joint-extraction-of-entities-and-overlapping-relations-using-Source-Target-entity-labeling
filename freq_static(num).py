@@ -134,7 +134,8 @@ def count_epo_frequency(pair_freq, rels, ids):
     return pair_freq, sentences, original_pair_set
 
 
-def get_seo_frequency_from_file(dataset, words2id, number_of_interest):
+# def get_seo_frequency_from_file(dataset, words2id, number_of_interest):
+def get_seo_frequency_from_file(dataset, words2id):
     """
     统计数据集中重叠实体出现的频数。按照最频繁重叠的实体排序，输出前number_of_interest个实体和频数。
 
@@ -170,14 +171,15 @@ def get_seo_frequency_from_file(dataset, words2id, number_of_interest):
         print('overlapping sentence count:', len(sentence_list))
         print('total word count:', len(original_word_set))
         print('overlapping word count:', len(word_freq))
-        print('word:     ', word_list[:number_of_interest])
-        print('identity: ', id_list[:number_of_interest])
-        print('frequency:', freq_list[:number_of_interest])
-        print('percent:  ', percent_list[:number_of_interest])
+        # print('word:     ', word_list[:number_of_interest])
+        # print('identity: ', id_list[:number_of_interest])
+        # print('frequency:', freq_list[:number_of_interest])
+        # print('percent:  ', percent_list[:number_of_interest])
         return word_list, id_list, freq_list, percent_list, sentence_list
 
 
-def get_epo_frequency_from_file(dataset, words2id, number_of_interest):
+# def get_epo_frequency_from_file(dataset, words2id, number_of_interest):
+def get_epo_frequency_from_file(dataset, words2id):
     """
     统计数据集中重叠实体对出现的频数。按照最频繁重叠的实体对排序，输出前number_of_interest个实体和频数。
 
@@ -213,19 +215,21 @@ def get_epo_frequency_from_file(dataset, words2id, number_of_interest):
         print('overlapping sentence count:', len(sentence_list))
         print('total pair count:', len(original_pair_set))
         print('overlapping pair count:', len(pair_freq))
-        print('entity pair:', pair_list[:number_of_interest])
-        print('identity:   ', id_list[:number_of_interest])
-        print('frequency:  ', freq_list[:number_of_interest])
-        print('percent:    ', percent_list[:number_of_interest])
+        # print('entity pair:', pair_list[:number_of_interest])
+        # print('identity:   ', id_list[:number_of_interest])
+        # print('frequency:  ', freq_list[:number_of_interest])
+        # print('percent:    ', percent_list[:number_of_interest])
         return pair_list, id_list, freq_list, percent_list, sentence_list
 
 
 if __name__ == "__main__":
-    get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/original data/train.json')
-    get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/original data/test.json')
+    # get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/train.json')
+    # get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/test.json')
 
-    number_of_interest = 11
-    get_seo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/original data/train.json', '/home/htt/Desktop/NYT-Multi/raw_data/original data/words2id.json', number_of_interest)
-
-    print()
-    get_epo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/original data/train.json', '/home/htt/Desktop/NYT-Multi/raw_data/original data/words2id.json', number_of_interest)
+    # number_of_interest = 11
+    # table1
+    get_seo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/train.json', '/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/words2id.json')
+    get_seo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/test.json', '/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/words2id.json')
+    # print()
+    get_epo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/train.json', '/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/words2id.json')
+    get_epo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/test.json', '/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/words2id.json')

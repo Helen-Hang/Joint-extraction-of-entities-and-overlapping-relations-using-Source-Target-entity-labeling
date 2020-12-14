@@ -1,0 +1,44 @@
+# Requirements and Installation
+requirements.txt
+
+# Preprocessing data
+Download pre__processed_data from https://drive.google.com/open?id=10f24s9gM7NdyO3z5OqQxJgYud4NnCJg3 and https://drive.google.com/open?id=1zISxYa-8ROe2Zv8iRc82jY9QsQrfY1Vj
+
+```
+python3 id2Text.py
+```
+
+# Result
+Download result from https://drive.google.com/drive/folders/16TkI-sYUPdj4Id-nh8OeK5YwOlD28yMw?usp=sharing and https://drive.google.com/drive/folders/1h28nVy3Y96J2cfDdJho4TBNhK5MHT1Vy?usp=sharing
+
+# Evaluation
+Table 1 result can run by 
+```
+python3 freq_static(num)
+```
+
+fig7,fig8,fig9 results can run by
+```
+python3  freq_static(word).py
+``` 
+
+10 runs results of Table 3 and fig10 result can run by 
+```
+python3  Boxplot.py
+``` 
+
+Table 5,6,8,9 results and fig12 result can run by
+```
+python3  analyze.py
+``` 
+
+fig 11 results can run by
+```
+python3  zhexian.py
+``` 
+ 
+Training data of different proportions in Table 7 can run by
+ ```
+python3  split_data.py
+``` 
+ 
