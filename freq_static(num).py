@@ -226,7 +226,7 @@ if __name__ == "__main__":
     # get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/train.json')
     # get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/test.json')
 
-    # number_of_interest = 11
+    # number_of_interest = 10
     # table1
     get_seo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/train.json', '/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/words2id.json')
     get_seo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/test.json', '/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/words2id.json')
