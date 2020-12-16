@@ -49,4 +49,9 @@ python3  zhexian.py
 Training data of different proportions in Table 7 can run by
  ```
 python3  split_data.py
+<<<<<<< HEAD
 ``` 
+=======
+``` 
+ 
+>>>>>>> bc54e23e99a6cf55843a0cfba24a1b5b0f37c036
