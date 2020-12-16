@@ -2,11 +2,11 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import numpy as np
-# 添加成绩表
+
 plt.style.use("ggplot")
 plt.rcParams['axes.unicode_minus'] = False
 plt.rcParams['font.sans-serif'] = ['SimHei']
-# 新建一个空的DataFrame
+
 df = pd.DataFrame()
 #NYT
 df["CopyRE"] = [0.587,0.595,0.589,0.581,0.592,0.595,0.585,0.591,0.588,0.592]
