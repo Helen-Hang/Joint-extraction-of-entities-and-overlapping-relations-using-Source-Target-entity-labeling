@@ -94,8 +94,6 @@ def different_overlap():
     print("entitypairoverlap个数为：" + str(c))
 
 def evaluate(data):
-    """评估函数，计算f1、precision、recall
-    """
     total_predict_right = 1e-10
     total_predict = 1e-10
     total_right = 1e-10
@@ -128,8 +126,6 @@ def evaluate(data):
     print('f1: %.5f, precision: %.5f, recall: %.5f' %(F, P, R))
 
 def evaluate_entity(data):
-    """评估函数，计算f1、precision、recall
-    """
     total_predict_right = 1e-10
     total_predict = 1e-10
     total_right = 1e-10
@@ -223,8 +219,6 @@ def static_tribution(data):
     return (sum_a1, sum_a2, sum_a3, sum_a4)
 
 def evaluate_E1(data):
-    """评估函数，计算f1、precision、recall
-        """
     total_predict_right = 1e-10
     total_predict = 1e-10
     total_right = 1e-10
@@ -261,8 +255,6 @@ def evaluate_E1(data):
     print('precision: %.5f, recall: %.5f, f1: %.5f' %(P, R, F))
 
 def evaluate_E2(data):
-    """评估函数，计算f1、precision、recall
-        """
     total_predict_right = 1e-10
     total_predict = 1e-10
     total_right = 1e-10
@@ -299,8 +291,6 @@ def evaluate_E2(data):
     print('precision: %.5f, recall: %.5f, f1: %.5f' %(P, R, F))
 
 def evaluate_relation(data):
-    """评估函数，计算f1、precision、recall
-    """
     total_predict_right = 1e-10
     total_predict = 1e-10
     total_right = 1e-10
@@ -340,8 +330,6 @@ def evaluate_relation(data):
     print('f1: %.5f, precision: %.5f, recall: %.5f' % (F, P, R))
 
 def evaluate_E1R(data):
-    """评估函数，计算f1、precision、recall
-        """
     total_predict_right = 1e-10
     total_predict = 1e-10
     total_right = 1e-10
@@ -378,8 +366,6 @@ def evaluate_E1R(data):
     print('precision: %.5f, recall: %.5f, f1: %.5f' % (P, R, F))
 
 def evaluate_RE2(data):
-    """评估函数，计算f1、precision、recall
-        """
     total_predict_right = 1e-10
     total_predict = 1e-10
     total_right = 1e-10
@@ -416,8 +402,6 @@ def evaluate_RE2(data):
     print('precision: %.5f, recall: %.5f, f1: %.5f' % (P, R, F))
 
 def evaluate_entitypair(data):
-    """评估函数，计算f1、precision、recall
-    """
     total_predict_right = 1e-10
     total_predict = 1e-10
     total_right = 1e-10
