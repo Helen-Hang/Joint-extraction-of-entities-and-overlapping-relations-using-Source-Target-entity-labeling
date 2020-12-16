@@ -1,16 +1,20 @@
 # Requirements and Installation
 First, install the requirements with the following command:
-
+```
 pip install -r requirements.txt
+```
 
 # Preprocessing data
-Download pre__processed_data from https://drive.google.com/open?id=10f24s9gM7NdyO3z5OqQxJgYud4NnCJg3 and https://drive.google.com/open?id=1zISxYa-8ROe2Zv8iRc82jY9QsQrfY1Vj into raw_data\nyt1\input and raw_data\WebNLG1\input
+Download pre__processed_data from 
+https://drive.google.com/open?id=10f24s9gM7NdyO3z5OqQxJgYud4NnCJg3 and https://drive.google.com/open?id=1zISxYa-8ROe2Zv8iRc82jY9QsQrfY1Vj 
+into raw_data\nyt1\input and raw_data\WebNLG1\input
 
 Our model expects the input dataset to be in word format. To convert a dataset run the following command:
 ```
 python3 id2Text.py
 ```
-The generated files are stored into raw_data\nyt1\output and raw_data\WebNLG1\output. Finally, all the data needed to run the model is stored into raw_data\nyt and raw_data\WebNLG
+The generated files are stored into raw_data\nyt1\output and raw_data\WebNLG1\output. 
+Finally, all the data needed to run the model is stored into raw_data\nyt and raw_data\WebNLG
 
 # Result
 Our paper results can be found here:
