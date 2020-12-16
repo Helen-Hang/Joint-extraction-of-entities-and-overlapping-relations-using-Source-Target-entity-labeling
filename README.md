@@ -23,7 +23,7 @@ https://drive.google.com/drive/folders/16TkI-sYUPdj4Id-nh8OeK5YwOlD28yMw?usp=sha
 # Evaluation
 Table 1 result can run by 
 ```
-python3 freq_static(num)
+python3 freq_static(num).py
 ```
 
 fig7,fig8,fig9 results can run by
