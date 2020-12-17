@@ -223,13 +223,13 @@ def get_epo_frequency_from_file(dataset, words2id):
 
 
 if __name__ == "__main__":
-    # get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/train.json')
-    # get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/test.json')
-
-    # number_of_interest = 10
+    #fig 7
+    get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/train.json')
+    get_rel_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/test.json')
+    
     # table1
     get_seo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/train.json', '/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/words2id.json')
     get_seo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/test.json', '/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/words2id.json')
-    # print()
+
     get_epo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/train.json', '/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/words2id.json')
     get_epo_frequency_from_file('/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/test.json', '/home/htt/Desktop/NYT-Multi/raw_data/nyt1/input/words2id.json')
