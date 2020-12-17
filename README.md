@@ -29,17 +29,17 @@ python main.py --gpu 0 --mode train --cell lstm --decoder_type one --dataset web
 ```
 - CopyRRL
 ```
-- NLL：
+**NLL**：
 python main.py -a train -d nyt -l nll -m separatew -b 100 -tn 5 -lr 0.001 -en 50 -sf 2 -hn 1000 -n common -g 2 -cell lstm -sobm 1
-- RL：
+**RL**：
 python main.py -a train -d nyt -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 24 -rip 'nyt-SEPARATE_W-NLL-5-0.001-100-FixedSortedAlphabet-lstm-1000-1000'
 python main.py -a valid -d nyt -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 24
 python main.py -a test -d nyt -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 24 -eve 15
 ```
 ```
-- NLL：
+**NLL**：
 python main.py -a train -d webnlg -l nll -m separatew -b 100 -tn 5 -lr 0.001 -en 50 -sf 2 -hn 1000 -n common -g 1 -cell lstm -sobm 3
-- RL：
+**RL**：
 python main.py -a train -d webnlg -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 44 -rip 'webnlg-SEPARATE_W-NLL-5-0.001-100-FixedSortedFreq-lstm-1000-1000'
 python main.py -a valid -d webnlg -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 44
 python main.py -a test -d webnlg -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 44 -eve 10
