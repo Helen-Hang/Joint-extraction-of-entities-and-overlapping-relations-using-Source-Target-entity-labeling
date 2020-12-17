@@ -7,7 +7,8 @@ pip install -r requirements.txt
 # Preprocessing data
 - Download pre__processed_data from
 
->  https://drive.google.com/open?id=10f24s9gM7NdyO3z5OqQxJgYud4NnCJg3 
+>  https://drive.google.com/open?id=10f24s9gM7NdyO3z5OqQxJgYud4NnCJg3
+
 >  https://drive.google.com/open?id=1zISxYa-8ROe2Zv8iRc82jY9QsQrfY1Vj 
 
 into raw_data\nyt1\input and raw_data\webnlg1\input
@@ -57,9 +58,9 @@ pyhton nlg.py
 # Result
 Our paper results can be found here:
 
-https://drive.google.com/drive/folders/16TkI-sYUPdj4Id-nh8OeK5YwOlD28yMw?usp=sharing 
+>  https://drive.google.com/drive/folders/16TkI-sYUPdj4Id-nh8OeK5YwOlD28yMw?usp=sharing 
 
-https://drive.google.com/drive/folders/1h28nVy3Y96J2cfDdJho4TBNhK5MHT1Vy?usp=sharing
+>  https://drive.google.com/drive/folders/1h28nVy3Y96J2cfDdJho4TBNhK5MHT1Vy?usp=sharing
 
 # Evaluation
 - Table 1 result can run by 
