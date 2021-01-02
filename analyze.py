@@ -441,31 +441,31 @@ if __name__ == "__main__":
      #different_relation()
      #different_overlap()
 
-     #fig 12
-     evaluate(relation_normal)
-     evaluate(relation_entitypairoverlap)
-     evaluate(relation_entityoverlap)
-
-     #table 5
+     #table 4
      evaluate_entity(relation_sum)
      evaluate_relation(relation_sum)
 
-     # table 6
+     # table 5
     (a1, a2, a3, a4) = static_tribution(relation_sum)
      print(a1, a2, a3, a4)
 
-     # table 8
+     # table 7
      evaluate(relation1)
      evaluate(relation2)
      evaluate(relation3)
      evaluate(relation4)
      evaluate(relation5)
 
-     #table 9
+     #table 8
      evaluate_E1(relation_sum)
      evaluate_E2(relation_sum)
 
      evaluate_E1R(relation_sum)
      evaluate_RE2(relation_sum)
      evaluate_entitypair(relation_sum)
+       
+     #fig 12
+     evaluate(relation_normal)
+     evaluate(relation_entitypairoverlap)
+     evaluate(relation_entityoverlap)
 
