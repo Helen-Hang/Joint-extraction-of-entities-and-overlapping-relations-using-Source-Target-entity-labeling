@@ -22,17 +22,16 @@ The generated files are stored into raw_data\nyt1\output and raw_data\webnlg1\ou
 - all the data needed to run the model is stored into raw_data\nyt and raw_data\webnlg
 
 # Run
-- CopyRE
 ```
 python main.py -c nyt.json -t 0 -cell lstm -g 0 -e n1 && python main.py -c nyt.json -t 1 -cell lstm -g 0 -e n1 -eve 2
 python main.py -c webnlg.json -t 0 -cell lstm -g 0 -e w1 && python main.py -c webnlg.json -t 1 -cell lstm -g 0 -e w1 -eve 2
 ```
-- CopyMTL
+
 ```
 python main.py --gpu 0 --mode train --cell lstm --decoder_type multi --dataset nyt --experiment exp00 && python main.py --gpu 0 --mode test --cell lstm --decoder_type multi --dataset nyt --experiment exp00
 python main.py --gpu 0 --mode train --cell lstm --decoder_type one --dataset webnlg --experiment exp00 && python main.py --gpu 0 --mode test --cell lstm --decoder_type one --dataset webnlg --experiment exp00
 ```
-- CopyRRL
+
 ```
 - NLL：
 python main.py -a train -d nyt -l nll -m separatew -b 100 -tn 5 -lr 0.001 -en 50 -sf 2 -hn 1000 -n common -g 2 -cell lstm -sobm 1
@@ -41,6 +40,7 @@ python main.py -a train -d nyt -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50
 python main.py -a valid -d nyt -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 24
 python main.py -a test -d nyt -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 24 -eve 15
 ```
+
 ```
 - NLL：
 python main.py -a train -d webnlg -l nll -m separatew -b 100 -tn 5 -lr 0.001 -en 50 -sf 2 -hn 1000 -n common -g 1 -cell lstm -sobm 3
@@ -48,11 +48,6 @@ python main.py -a train -d webnlg -l nll -m separatew -b 100 -tn 5 -lr 0.001 -en
 python main.py -a train -d webnlg -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 44 -rip 'webnlg-SEPARATE_W-NLL-5-0.001-100-FixedSortedFreq-lstm-1000-1000'
 python main.py -a valid -d webnlg -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 44
 python main.py -a test -d webnlg -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 50 -sf 5 -hn 1000 -n 01 -g 0 -cell lstm -re 44 -eve 10
-```
-- BERT-multire(The operating parameters are defined in the py file)
-```
-python nyt.py
-pyhton nlg.py
 ```
 
 # Result
