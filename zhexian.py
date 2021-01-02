@@ -21,7 +21,7 @@ plt.xticks(range(5),fontsize=15)
 plt.yticks(fontsize=15)
 plt.xlabel(u"Relation threshold", fontsize=15) #X轴标签
 plt.ylabel("Value of (P,R,F1)", fontsize=15) #Y轴标签
-plt.savefig("./fig11-1.png")
+plt.savefig("./fig8-1.png")
 plt.show()
 
 x = ['0.3', '0.4', '0.5', '0.6', '0.7']
@@ -36,5 +36,5 @@ plt.xticks(range(5),fontsize=15)
 plt.yticks(fontsize=15)
 plt.xlabel(u"Relation threshold", fontsize=15) #X轴标签
 plt.ylabel("Value of (P,R,F1)", fontsize=15) #Y轴标签
-plt.savefig("./fig11-2.png")
+plt.savefig("./fig8-2.png")
 plt.show()
