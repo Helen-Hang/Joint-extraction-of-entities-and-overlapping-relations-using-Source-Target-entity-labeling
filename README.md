@@ -56,32 +56,32 @@ Our paper results can be found here:
 >  https://drive.google.com/drive/folders/1h28nVy3Y96J2cfDdJho4TBNhK5MHT1Vy?usp=sharing
 
 # Evaluation
-- Table 1 result can run by 
+- Table 1 result can be obtained by runing
 ```
 python freq_static(num).py
 ```
 
-- Table 4,5,7,8 results and fig9 result can run by
+- Table 4,5,7,8 results and fig9 result can be obtained by runing
 ```
 python  analyze.py
 ``` 
 
-- Training data of different proportions in Table 6 can run by
+- Training data of different proportions in Table 6 can be obtained by runing
  ```
 python  split_data.py
 ``` 
 
- - 10 runs results of Table 3 and fig7 result can run by 
+ - 10 runs results of Table 3 and fig7 result can be obtained by runing
 ```
 python  Boxplot.py
 ``` 
 
-- fig 8 results can run by
+- fig 8 results can be obtained by runing
 ```
 python  zhexian.py
 ``` 
 
-- fig10,fig11,fig12 results can run by
+- fig10,fig11,fig12 results can be obtained by runing
 ```
 python  freq_static(word).py
 ``` 
