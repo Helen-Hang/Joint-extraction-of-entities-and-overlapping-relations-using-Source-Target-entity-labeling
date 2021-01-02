@@ -68,7 +68,7 @@ Our paper results can be found here:
 python freq_static(num).py
 ```
 
-- Table 4,5,7,8 results and fig12 result can run by
+- Table 4,5,7,8 results and fig9 result can run by
 ```
 python  analyze.py
 ``` 
@@ -88,7 +88,7 @@ python  Boxplot.py
 python  zhexian.py
 ``` 
 
-- fig9,fig10,fig11,fig12 results can run by
+- fig10,fig11,fig12 results can run by
 ```
 python  freq_static(word).py
 ``` 
