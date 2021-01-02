@@ -68,27 +68,35 @@ Our paper results can be found here:
 python freq_static(num).py
 ```
 
-- fig7,fig8,fig9 results can run by
-```
-python  freq_static(word).py
-``` 
-
-- 10 runs results of Table 3 and fig10 result can run by 
-```
-python  Boxplot.py
-``` 
-
-- Table 5,6,8,9 results and fig12 result can run by
+- Table 4,5,7,8 results and fig12 result can run by
 ```
 python  analyze.py
 ``` 
 
-- fig 11 results can run by
-```
-python  zhexian.py
-``` 
- 
-- Training data of different proportions in Table 7 can run by
+- Training data of different proportions in Table 6 can run by
  ```
 python  split_data.py
 ``` 
+
+ - 10 runs results of Table 3 and fig7 result can run by 
+```
+python  Boxplot.py
+``` 
+
+- fig 8 results can run by
+```
+python  zhexian.py
+``` 
+
+- fig9,fig10,fig11,fig12 results can run by
+```
+python  freq_static(word).py
+``` 
+then can be drawn using Origin 2018
+
+
+
+
+
+ 
+
