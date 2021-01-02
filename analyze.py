@@ -464,7 +464,7 @@ if __name__ == "__main__":
      evaluate_RE2(relation_sum)
      evaluate_entitypair(relation_sum)
        
-     #fig 12
+     #fig 9
      evaluate(relation_normal)
      evaluate(relation_entitypairoverlap)
      evaluate(relation_entityoverlap)
