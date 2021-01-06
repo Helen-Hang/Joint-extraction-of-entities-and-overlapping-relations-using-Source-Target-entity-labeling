@@ -53,15 +53,13 @@ Our paper results can be found here:
 
 >  https://drive.google.com/drive/folders/16TkI-sYUPdj4Id-nh8OeK5YwOlD28yMw?usp=sharing 
 
->  https://drive.google.com/drive/folders/1h28nVy3Y96J2cfDdJho4TBNhK5MHT1Vy?usp=sharing
-
 # Evaluation
 - Table 1 result can be obtained by runing
 ```
 python freq_static(num).py
 ```
 
-- Table 4,5,7,8 results and fig9 result can be obtained by runing
+- Table 4,5,7,9 results and fig9 result can be obtained by runing
 ```
 python  analyze.py
 ``` 
