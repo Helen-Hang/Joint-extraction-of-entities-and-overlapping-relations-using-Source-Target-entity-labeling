@@ -1,4 +1,3 @@
-Download result from https://drive.google.com/drive/folders/1h28nVy3Y96J2cfDdJho4TBNhK5MHT1Vy?usp=sharing
 
 The best F1 score output file dev_pred.json
 
