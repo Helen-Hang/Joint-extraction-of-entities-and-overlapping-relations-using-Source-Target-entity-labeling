@@ -9,6 +9,8 @@ pip install -r requirements.txt
 
 >  https://drive.google.com/open?id=10f24s9gM7NdyO3z5OqQxJgYud4NnCJg3
 
+>  https://drive.google.com/open?id=1zISxYa-8ROe2Zv8iRc82jY9QsQrfY1Vj
+
 into raw_data\nyt1\input and raw_data\webnlg1\input
 
 - Our model expects the input dataset to be in word format. To convert a dataset run the following command:
