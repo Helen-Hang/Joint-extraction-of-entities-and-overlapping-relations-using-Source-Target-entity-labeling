@@ -54,6 +54,7 @@ python main.py -a test -d webnlg -l rl -m separatew -b 100 -tn 5 -lr 0.0005 -en 
 Our paper results can be found here:
 
 >  https://drive.google.com/drive/folders/16TkI-sYUPdj4Id-nh8OeK5YwOlD28yMw?usp=sharing 
+>  https://drive.google.com/drive/folders/1h28nVy3Y96J2cfDdJho4TBNhK5MHT1Vy?usp=sharing
 
 # Evaluation
 - Table 1 result can be obtained by runing
